@@ -3,6 +3,7 @@ import Header from "./Header.js";
 import Footer from './Footer.js';
 import About from './pages/About.js';
 import Projects from './pages/Projects.js';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,27 +15,20 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Router>
+      <Router>
           <Header />
           <Routes>
             <Route
-              exact path="/home"
-            >
-            </Route>
-            <Route
-              exact path="/About"
+              exact path="/about"
               element={<About/>}
-            >
-            </Route>
+            />
             <Route
-              exact path="/Projects"
+              exact path="/projects"
               element={<Projects/>}
-            >
-            </Route>
+            />
           </Routes>
-
-          <Footer />
-        </Router>
+        <Footer/>
+      </Router>
       </>
     )
   }
