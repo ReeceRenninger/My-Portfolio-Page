@@ -5,4 +5,5 @@ Author: Reece Renninger
 ## Documentation
 
 - Wireframe for starting build
-![Wireframe](./imgs/wireframe-for-portfolio.png)
+
+![Wireframe](./src/imgs/wireframe-for-portfolio.png)
