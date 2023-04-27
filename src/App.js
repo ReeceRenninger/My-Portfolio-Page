@@ -17,6 +17,7 @@ class App extends React.Component {
       <>
       <Router>
           <Header />
+          <h1>Name and title Information to always be present on page</h1>
           <Routes>
             <Route
               exact path="/about"

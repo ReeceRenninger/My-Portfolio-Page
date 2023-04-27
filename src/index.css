@@ -1,6 +1,16 @@
+#aboutMeCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 #footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
+}
+/* May need to specify IDs for spacing links in the future */
+a {
+  padding-left: 20px;
 }

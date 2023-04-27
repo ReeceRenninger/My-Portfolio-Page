@@ -7,7 +7,6 @@ class Header extends React.Component{
   render(){
     return (
       <>
-      <h1> Am I Alive?</h1>
       <Navbar>
         <NavItem><Link to="/home">Home</Link></NavItem>
         <NavItem><Link to="/projects">Projects</Link></NavItem>
