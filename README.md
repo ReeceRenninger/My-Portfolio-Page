@@ -6,4 +6,4 @@ Author: Reece Renninger
 
 - Wireframe for starting build
 
-![Wireframe](./src/imgs/wireframe-for-portfolio.png)
+![Alt text](public/imgs/wireframe-for-portfolio.png)
