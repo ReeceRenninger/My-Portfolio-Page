@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
+import GuessImage from '../imgs/game_title.png';
 
 class Projects extends React.Component{
   render(){
@@ -9,7 +10,7 @@ class Projects extends React.Component{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/imgs/game_title.png"
+          src={GuessImage}
           alt="TRYING TO SPACE THIS OUT ENOUGH TO MOVE CAROUSEL BUTTONS APART"
         />
         <Carousel.Caption>
