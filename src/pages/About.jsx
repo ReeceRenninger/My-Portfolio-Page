@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import IwoJimaPhoto from '../imgs/iwoparade-me.jpg';
 
-class About extends React.Component{
-  render(){
+const About = () =>{
+  
     return(
       <Container id="aboutMeCard">
       <Card  style={{ width: '25rem' }}>
@@ -18,7 +18,7 @@ class About extends React.Component{
     </Card>
     </Container>
     )
-  }
+  
 }
 
 export default About;

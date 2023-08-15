@@ -1,10 +1,52 @@
+body{
+  background-color: #187566;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.contact-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-info h4 {
+  margin: 0;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.nav-links{
+  color: #5DA9E9;
+}
 #aboutMeCard {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#footer{
+.contact-info{
+  color: #F6D55C;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -14,3 +56,20 @@
 a {
   padding-left: 20px;
 }
+
+.carousel .item  {
+  height: 300px !important;
+}
+
+.item img {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    min-height: 300px !important;
+}
+
+/*- Green and Blue Variation:
+
+    Dark Teal Green: #187566
+    Sky Blue: #5DA9E9
+    Lemon Yellow: #F6D55C */

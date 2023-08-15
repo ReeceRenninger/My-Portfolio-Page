@@ -1,9 +1,11 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import GuessImage from '../imgs/game_title.png';
+import GoodGame from '../imgs/gg-by-MatthewHenry.gif'
 
-class Projects extends React.Component{
-  render(){
+
+const Projects = () => {
+ 
     return(
       <Carousel>
 
@@ -22,7 +24,7 @@ class Projects extends React.Component{
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src={GoodGame}
           alt="Second slide"
         />
 
@@ -49,7 +51,7 @@ class Projects extends React.Component{
 
     </Carousel>
     )
-  }
+  
 }
 
 export default Projects;

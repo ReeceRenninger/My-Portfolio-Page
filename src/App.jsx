@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "./Header.js";
-import Footer from './Footer.js';
-import About from './pages/About.js';
-import Projects from './pages/Projects.js';
+import Header from "./Header.jsx";
+
+import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
+import Home from './pages/Home.jsx';
 
 import {
   BrowserRouter as Router,
@@ -11,13 +12,13 @@ import {
 } from 'react-router-dom';
 
 
-class App extends React.Component {
-  render() {
+const App = () => {
+
     return (
       <>
       <Router>
           <Header />
-          <h1>Name and title Information to always be present on page</h1>
+          <Home />
           <Routes>
             <Route
               exact path="/about"
@@ -28,11 +29,10 @@ class App extends React.Component {
               element={<Projects/>}
             />
           </Routes>
-        <Footer/>
       </Router>
       </>
     )
-  }
+  
 }
 
 export default App;
