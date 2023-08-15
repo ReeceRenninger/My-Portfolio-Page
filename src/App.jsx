@@ -3,7 +3,7 @@ import Header from "./Header.jsx";
 
 import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
-// import Home from './pages/Home.jsx';
+import Home from './pages/Home.jsx';
 
 import {
   BrowserRouter as Router,
@@ -18,7 +18,7 @@ const App = () => {
       <>
       <Router>
           <Header />
-          {/* <Home /> */}
+          <Home />
           <Routes>
             <Route
               exact path="/about"
@@ -29,7 +29,6 @@ const App = () => {
               element={<Projects/>}
             />
           </Routes>
-        {/* <Footer/> */}
       </Router>
       </>
     )
