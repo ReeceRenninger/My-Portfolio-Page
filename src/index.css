@@ -1,3 +1,7 @@
+body{
+  background-color: #187566;
+}
+
 #aboutMeCard {
   display: flex;
   flex-wrap: wrap;
@@ -5,6 +9,7 @@
 }
 
 #footer{
+  color: #F6D55C;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -25,3 +30,9 @@ a {
     left: 0 !important;
     min-height: 300px !important;
 }
+
+/* Option 1 - Green and Blue Variation:
+
+    Dark Teal Green: #187566
+    Sky Blue: #5DA9E9
+    Lemon Yellow: #F6D55C */

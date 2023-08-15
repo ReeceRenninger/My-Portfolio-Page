@@ -10,8 +10,8 @@ const handleAnchorClick = (event) => {
   window.open(url, '_blank', 'noopener,noreferrer'); // Open link in new tab
 };
 
-class Footer extends React.Component{
-  render(){
+const Footer = () =>{
+  
     return(
       <>
       <Container id='footer'>
@@ -25,7 +25,6 @@ class Footer extends React.Component{
       </Container>
       </>
     )
-  }
 }
 
 export default Footer;

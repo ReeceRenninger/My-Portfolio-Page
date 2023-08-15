@@ -2,9 +2,10 @@ import React from 'react';
 import {Navbar} from 'react-bootstrap';
 import {NavItem} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
-class Header extends React.Component{
-  render(){
+const Header = () =>{
+ 
     return (
       <>
       <Navbar>
@@ -14,7 +15,7 @@ class Header extends React.Component{
       </Navbar>
       </>
     );
-  }
+  
 }
 
 export default Header;

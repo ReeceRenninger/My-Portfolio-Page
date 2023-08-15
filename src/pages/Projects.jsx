@@ -2,8 +2,10 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import GuessImage from '../imgs/game_title.png';
 import GoodGame from '../imgs/gg-by-MatthewHenry.gif'
-class Projects extends React.Component{
-  render(){
+
+
+const Projects = () => {
+ 
     return(
       <Carousel>
 
@@ -49,7 +51,7 @@ class Projects extends React.Component{
 
     </Carousel>
     )
-  }
+  
 }
 
 export default Projects;

@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header.js";
-import Footer from './Footer.js';
-import About from './pages/About.js';
-import Projects from './pages/Projects.js';
+import Header from "./Header.jsx";
+import Footer from './Footer.jsx';
+import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
 
 import {
   BrowserRouter as Router,
@@ -11,8 +11,8 @@ import {
 } from 'react-router-dom';
 
 
-class App extends React.Component {
-  render() {
+const App = () => {
+
     return (
       <>
       <Router>
@@ -32,7 +32,7 @@ class App extends React.Component {
       </Router>
       </>
     )
-  }
+  
 }
 
 export default App;
