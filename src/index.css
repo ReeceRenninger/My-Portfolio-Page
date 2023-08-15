@@ -2,6 +2,39 @@ body{
   background-color: #187566;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+.contact-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-info h4 {
+  margin: 0;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
 .nav-links{
   color: #5DA9E9;
 }
@@ -11,7 +44,7 @@ body{
   justify-content: center;
 }
 
-#footer{
+.contact-info{
   color: #F6D55C;
   display: flex;
   flex-wrap: wrap;
