@@ -3,6 +3,7 @@ import Header from "./Header.jsx";
 import Footer from './Footer.jsx';
 import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
+import Home from './pages/Home.jsx';
 
 import {
   BrowserRouter as Router,
@@ -17,7 +18,7 @@ const App = () => {
       <>
       <Router>
           <Header />
-          <h1>Name and title Information to always be present on page</h1>
+          <Home />
           <Routes>
             <Route
               exact path="/about"

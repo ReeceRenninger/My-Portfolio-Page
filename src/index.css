@@ -2,6 +2,9 @@ body{
   background-color: #187566;
 }
 
+.nav-links{
+  color: #5DA9E9;
+}
 #aboutMeCard {
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +34,7 @@ a {
     min-height: 300px !important;
 }
 
-/* Option 1 - Green and Blue Variation:
+/*- Green and Blue Variation:
 
     Dark Teal Green: #187566
     Sky Blue: #5DA9E9
